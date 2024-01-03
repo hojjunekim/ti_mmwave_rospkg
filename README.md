@@ -4,9 +4,10 @@
 #### Organization: University of Arizona
 #### Email: dr.leo.zhang@outlook.com
 ---
-### Most recent change:
+### Changes of this customized repository:
 
-Add support for XWR18XX devices. SDK version: 3.2.0.4.
+Original repo was publishing the informations in two ways(pointcloud2 and RadarScan.msg) and there was no msg that combines all information for SDK version 3.x+.
+In this customized ROS package, the doppler(velocity), azimuth, range and intensity informations are all included in pointcloud2 and RadarScan.msg topics.
 
 ---
 Initially derived from TI's origin ROS package in Industrial Toolbox 2.3.0 (new version available [Industrial Toolbox 2.5.2](http://dev.ti.com/tirex/#/?link=Software%2FmmWave%20Sensors%2FIndustrial%20Toolbox)).
